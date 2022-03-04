@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.navbar {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  border: 3px solid black;
+  height: 3rem;
+}
+h4 {
+  padding-top: 1rem;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+}
+
+li {
+  padding-top: 1rem;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
+  margin-right: 1rem;
+}
+.container {
+  height: calc(100vh - 3rem);
+  background-color: #ffefd8;
+}
+.bgcolor {
+  padding-top: 32vh;
+  margin-left: 30vw;
+  font-family: "Josefin Sans", sans-serif;
+}
+h2 {
+  background-color: #1c1a1c;
+  width: 40vw;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 2vw;
+  padding-top: 20px;
+  color: white;
+}
+.color {
+  color: #5894bb;
+}
+.button {
+  margin-left: 44vw;
+  margin-top: 7vh;
+}
+
+.btn {
+  width: 9vw;
+  height: 5vh;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 3px solid black;
+  font-size: 15px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
+}
+.btn:hover {
+  background-color: black;
+  color: aliceblue;
+}
